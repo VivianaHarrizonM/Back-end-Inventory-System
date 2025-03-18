@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import vhm.inventarios.model.Producto;
 
+
 @SpringBootApplication
 public class InventariosApplication {
 
@@ -20,8 +21,4 @@ public class InventariosApplication {
 		System.out.println(producto);
 
 	}
-
-
-
-
 }
