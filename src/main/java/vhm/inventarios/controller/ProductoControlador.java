@@ -16,7 +16,7 @@ import java.util.Map;
 @RestController
 @RequestMapping("inventario-app") // http://localhost:8080/inventario-app
 @CrossOrigin(origins = {"https://front-end-inventory-system.onrender.com",
-        "https://bright-griffin-7fc033.netlify.app"})//"http://localhost:4200" // Puerto por defecto de Angular
+        "https://bright-griffin-7fc033.netlify.app"})//"http://localhost:4200"
 public class ProductoControlador {
   private static final Logger logger = LoggerFactory.getLogger(ProductoControlador.class);
 
